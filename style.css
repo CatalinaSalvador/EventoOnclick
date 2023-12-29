@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+
+/*barra navegación*/
+.menu{ 
+    background-color: rgb(202, 202, 202);
+    margin: auto;
+    width: 60%;
+}
+
+.menu-texto{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+}
+
+.menu-texto button{
+    color: aliceblue;
+    background-color: rgb(72, 137, 233);
+    padding: 5px 15px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
+
+.menu-texto input {
+    border: 2px solid black;
+    width: 400px;
+    height: 25px;
+}
+
+/*contenedor principal*/
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contenedor-izquierda{
+    margin: 10px;
+}
+
+.contenedor-derecha{
+    margin: 10px;
+}
+
+
+/*tarjeta ninja*/
+.tarjeta-ninja{
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 30px;
+}
+
+.datos-ninja{
+    height: 150px; /*alto*/
+    padding: 10px 0;
+    display: flex; 
+    flex-direction: column; /*que este todo en una misma columna*/
+}
+
+.datos-ninja p{
+    font-size: 14px;
+    text-align: center;
+}
+
+.datos-ninja button{
+    background-color: rgb(244, 255, 150);
+    box-shadow: 2px 2px;
+    padding: 3px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.texto p {
+    font-size: 18px;
+}
+
+/*tarjeta ninja abajo*/
+.ninja-2{
+    margin-top: 20px;
+}
+
+/*dojonary boton verde*/
+.dojonari{
+    width: 200px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.dojo-verde{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.boton-verde{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.boton-verde button{
+    background-color: rgb(173, 240, 173);
+    box-shadow: 2px 2px;
+    padding: 6px 40px;
+    border: 2px solid black;
+}
